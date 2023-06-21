@@ -80,4 +80,11 @@ class StudentRepositoryTest {
 
     }
 
+    @Test
+    public void updateQuery()
+    {
+        int s1= std.updateByEmail("Saad","umer231");
+        System.out.println(s1);
+
+    }
 }
